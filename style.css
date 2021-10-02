@@ -1,0 +1,224 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    color:#4d4d4d;
+    
+}
+
+body.home {
+    text-align:center;
+    background-color: aliceblue;
+    background-image: url(img/choco1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+
+}
+
+h1.odin {
+    font-size:50px;
+    color: #668cff;
+    padding-top: 20px;
+}
+
+.menu {
+    text-align:center;
+    background: #ffe6cc;
+    margin:auto;
+    width:200px;
+    padding: 10px;
+    border-radius: 5px; 
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+.return {
+    display: flex;
+    height:100px;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+
+
+/* RETURN "BUTTONS" */
+
+/*.return {
+    text-decoration: none;
+    width:230px;
+    background:rgb(217, 217, 217, 0.7);
+    background-blend-mode:lighten;
+    padding:25px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} */
+
+.return > div {
+    background-color: rgb(217, 217, 217, 0.7);;
+    width: 230px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 5px;
+}
+
+.top {
+    text-decoration: none;
+    text-align: right;
+}
+
+.back_menu {
+    text-decoration: none;
+}
+
+
+
+/* BUTTER CAKE */
+
+body.butter{
+    text-align:center;
+    background-color: #fcf5e8;
+    background-image: url(img/butter3.png);
+    background-repeat: repeat;
+}
+
+p.description {
+    background:rgba(128, 101, 43, 0.3);
+    background-blend-mode:lighten;
+    border-style: solid;
+    border-color: rgba(128, 101, 43, 0.3);
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 60px;
+    width:600px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.butter .food {
+    background:rgba(128, 101, 43, 0.418);
+    margin:auto;
+}
+
+ul.butter_ing{
+    text-align: left;
+    background:rgba(128, 101, 43, 0.7);
+    background-blend-mode:lighten;
+    margin:auto;
+    margin-bottom: 60px;
+    width:250px;
+    padding: 25px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+ol.butter_steps {
+    text-align: left;
+    background:rgba(128, 101, 43, 0.7);
+    background-blend-mode:lighten;
+    margin:auto;
+    margin-bottom: 100px;
+    width:1000px;
+    padding: 50px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+h4.butterhead {
+    background:rgba(173, 127, 58, 0.7);
+    width:250px;
+    margin:auto;
+    padding: 15px 25px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h4.dir {
+    width:1000px;
+    padding: 15px 50px;
+}
+
+
+
+/* BANANA CAKE */
+
+body.banana{
+    text-align:center;
+    background-color: #fcf5e8;
+    background-image: url(img/banana.png);
+    background-repeat:repeat;
+    background-size: contain;
+    background-blend-mode: lighten;
+}
+
+p.banana_description {
+    background:rgba(232, 235, 82, 0.3);
+    background-blend-mode:lighten;
+    border-style: solid;
+    border-color: rgba(128, 101, 43, 0.3);
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 60px;
+    width:600px;
+    padding: 25px;
+    border-radius: 5px;
+}
+/*
+.butter .food {
+    background:rgba(128, 101, 43, 0.418);
+    margin:auto;
+}
+
+ul.butter_ing{
+    text-align: left;
+    background:rgba(128, 101, 43, 0.7);
+    background-blend-mode:lighten;
+    margin:auto;
+    margin-bottom: 60px;
+    width:250px;
+    padding: 25px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+ol.butter_steps {
+    text-align: left;
+    background:rgba(128, 101, 43, 0.7);
+    background-blend-mode:lighten;
+    margin:auto;
+    margin-bottom: 100px;
+    width:1000px;
+    padding: 50px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+h4.butterhead {
+    background:rgba(173, 127, 58, 0.7);
+    width:250px;
+    margin:auto;
+    padding: 15px 25px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h4.dir {
+    width:1000px;
+    padding: 15px 50px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background:rgba(43, 122, 128, 0.5) 
+lightslategrey */
